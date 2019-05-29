@@ -1,0 +1,5 @@
+model knapsack.mod;
+data instances/knapsack12.dat;
+option solver cplex;
+solve;
+display Select;
