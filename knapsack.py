@@ -24,5 +24,5 @@ for f in infs:
 	with open(fn, 'a') as runf:
 		runf.write("data instances/"+f+"\n")
 	os.system('cat knap2.run >> '+fn)
-	os.system('ampl '+fn)
+	os.system('ampl '+fn+' > outputs/'+f[:-4]+'.output')
 	os.system('rm '+fn)
