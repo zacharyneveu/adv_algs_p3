@@ -1,0 +1,2 @@
+model color.mod;
+option solver cplex;
