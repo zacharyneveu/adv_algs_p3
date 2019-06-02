@@ -1,3 +1,0 @@
-option solver cplex;
-solve;
-display Select;
